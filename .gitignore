@@ -1,0 +1,21 @@
+# 虚拟环境与 Python 缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 编辑器 / 操作系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 误建在项目内的 Windows 系统缓存目录（不是项目文件）
+%SystemDrive%/
+
+# 运行日志
+*.log
+gui.log
+
+# 本地工作记录，不随仓库分发
+.workbuddy/
